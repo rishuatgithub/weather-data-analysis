@@ -3,7 +3,7 @@ from transformation import weather_ingest, weather_transform
 
 if __name__ == '__main__':
 
-    WEATHER_INPUT_PATH = '../data/input'
+    WEATHER_INPUT_PATH = '../data/input/*.csv'
     WEATHER_INGEST_OUTPUT_PATH = '../data/output/weather_parquet'
     WEATHER_TRANSFORM_OUTPUT_PATH = '../data/output/weather_calculate_temperature'
 

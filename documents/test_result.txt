@@ -1,0 +1,11 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.9.7, pytest-6.2.5, py-1.11.0, pluggy-1.0.0 -- /Users/rishushrivastava/Document/GitHub/weather-data-analysis/venv/bin/python
+cachedir: .pytest_cache
+rootdir: /Users/rishushrivastava/Document/GitHub/weather-data-analysis
+collecting ... collected 3 items
+
+tests/test_weather_ingest.py::test_should_maintain_all_data_it_reads PASSED [ 33%]
+tests/test_weather_transform.py::test_should_return_expected_columns_and_schema PASSED [ 66%]
+tests/test_weather_transform.py::test_should_calculate_maxtemperature_and_rank PASSED [100%]
+
+============================== 3 passed in 16.20s ==============================

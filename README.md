@@ -1,7 +1,5 @@
 # Weather Data Analysis
 
------------------------------------------------------------------
-
 ## Problem Statement / Description
 
 This is an apache spark job that convert the weather data into parquet format. Set the row group to the appropriate value you see fit
@@ -22,6 +20,8 @@ for this data. The converted data should be able to answer the following questio
 
 The result based on the weather .csv data:
 
+![result](documents/result.png)
+
 - **Hottest Day**: 2016-03-17 00:00:00
 - **Temperature**: 15.8
 - **Region**: Highland & Eilean Siar
@@ -37,7 +37,7 @@ The project directory structure along with its description
           |-- input: Weather .csv file is kept here
           |-- output: The output .parquet files that were generated
       |-- documents: Documents to refer including problem statement and job design
-      |-- job: Main Entry Job location
+      |-- job: Starting Job Entry location (weather_job.py)
       |-- logs: Log directory
       |-- tests: Test location
       |-- transformation: Files to transform the weather data
@@ -46,7 +46,6 @@ The project directory structure along with its description
 ## Job Design
 
 ![weather_job_pipeline](documents/job_design.jpg)
-
 
 
 
