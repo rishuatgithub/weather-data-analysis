@@ -37,7 +37,7 @@ MANIFEST
 pip-log.txt
 pip-delete-this-directory.txt
 
-# Unit test / coverage reports
+# Unit tests / coverage reports
 htmlcov/
 .tox/
 .nox/
@@ -130,6 +130,9 @@ dmypy.json
 
 venv/
 data/output/*
-data/input
+data/input/*
 documents/.DS_Store
 .idea/*
+.DS_Store
+.DS_Store
+.DS_Store
