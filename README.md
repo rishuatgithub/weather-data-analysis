@@ -15,6 +15,7 @@ for this data. The converted data should be able to answer the following questio
 3. The hottest day calculation is based on `MAXIMUM ScreenTemperature` at any site within a region.
 4. The final temperature data result returns all the rows with a `rank` assigned to it. It is named `IsHottestRank`.
 5. `IsHottestRank = 1` is the hottest day and region.
+6. Logging is kept to minimal for the purpose of this test.
 
 ## Output
 
